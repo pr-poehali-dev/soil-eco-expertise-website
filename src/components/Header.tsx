@@ -20,15 +20,16 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            <a href="#main" className="text-gray-700 hover:text-primary">Главная</a>
-            <a href="#about" className="text-gray-700 hover:text-primary">О компании</a>
-            <a href="#services" className="text-gray-700 hover:text-primary">Услуги</a>
-            <a href="#experts" className="text-gray-700 hover:text-primary">Эксперты</a>
-            <a href="#documents" className="text-gray-700 hover:text-primary">Документы</a>
-            <a href="#news" className="text-gray-700 hover:text-primary">Новости</a>
-            <a href="#contacts" className="text-gray-700 hover:text-primary">Контакты</a>
-            <Button variant="default" size="sm">
+
+            <a href="#main" className="text-gray-700 hover:text-primary cursor-pointer">Главная</a>
+            <a href="#about" className="text-gray-700 hover:text-primary cursor-pointer">О компании</a>
+            <a href="#services" className="text-gray-700 hover:text-primary cursor-pointer">Услуги</a>
+            <a href="#experts" className="text-gray-700 hover:text-primary cursor-pointer">Эксперты</a>
+            <a href="#documents" className="text-gray-700 hover:text-primary cursor-pointer">Документы</a>
+            <a href="#news" className="text-gray-700 hover:text-primary cursor-pointer">Новости</a>
+            <a href="#contacts" className="text-gray-700 hover:text-primary cursor-pointer">Контакты</a>
+            <Button variant="default" size="sm" href="#contacts">
+
               <Icon name="FileText" size={16} />
               Запросить экспертизу
             </Button>

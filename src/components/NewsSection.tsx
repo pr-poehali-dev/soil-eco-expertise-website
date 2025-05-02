@@ -73,3 +73,8 @@ const NewsSection = () => {
 };
 
 export default NewsSection;
+
+          <Button variant="outline" size="lg" className="text-blue-700 border-blue-700 hover:bg-blue-50" href="#news">
+            Все публикации
+          </Button>
+

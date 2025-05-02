@@ -39,9 +39,11 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <Button className="mt-6" variant="outline">
+
+            <Button className="mt-6 bg-blue-700 text-white hover:bg-blue-800" href="#about">
               Подробнее о нас
             </Button>
+
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
